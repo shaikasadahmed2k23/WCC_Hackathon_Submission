@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: continuityos
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "1"

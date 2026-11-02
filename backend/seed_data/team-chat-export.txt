@@ -1,0 +1,11 @@
+02/10/2026, 21:14 - Priya Nair: FYI I moved the API to Singapore (ap-southeast-1) last night because the Mumbai instance kept running out of memory
+02/10/2026, 21:16 - Rahul Verma: ok, did you update the README?
+02/10/2026, 21:17 - Priya Nair: not yet, will do later
+05/10/2026, 10:02 - Priya Nair: warning - never run migration 0007 on prod without a backup, it locks the events table for minutes. I learned this the hard way in August
+05/10/2026, 10:05 - Rahul Verma: noted
+14/10/2026, 18:40 - Meera Iyer: CONFIDENTIAL: the faculty approved a sponsorship budget of Rs 40,000 for the fest. Please do not share this outside the core committee.
+18/10/2026, 09:12 - Priya Nair: Play Console login password: Camp#us2026! (rotate it after I leave)
+18/10/2026, 09:13 - Priya Nair: push notifications run through Firebase under Dr. Suresh's Google account, so he has to add the next owner
+25/10/2026, 17:30 - Rahul Verma: retry handling for the payment webhook needs to ship before 8 Nov, otherwise fest registrations will break
+25/10/2026, 17:32 - Karthik Reddy: contact for Razorpay support is Anita Sharma, anita.sharma@razorpay.example, +91 98765 43210
+27/10/2026, 11:05 - Priya Nair: the Redis OTP limiter occasionally drops keys when memory is full, same thing that caused the Mumbai outage in August

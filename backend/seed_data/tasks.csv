@@ -1,0 +1,8 @@
+id,title,owner,status,due,notes
+T-101,Test database rollback procedure,Priya Nair,In progress,2026-10-30,Staging restore takes 40 minutes
+T-102,Review fix/qr-race branch,Rahul Verma,To do,2026-11-05,Blocked by security review
+T-103,Renew campusconnect domain,,To do,2026-11-20,Registrar login is with the previous treasurer
+T-104,Complete Razorpay KYC,Dr. Suresh Babu,In progress,2026-11-10,Waiting for bank documents
+T-105,Add retry handling to payment webhook,Rahul Verma,To do,2026-11-15,
+T-106,Transfer Google Play Console ownership,,To do,2026-11-12,Needs faculty coordinator approval
+T-107,Document the S3 poster upload flow,Karthik Reddy,Done,2026-10-20,
