@@ -22,7 +22,8 @@ ARGS = ap.parse_args()
 TEAM_NAME = ARGS.team
 OUT = ARGS.out
 
-FD = "/usr/share/fonts/truetype/dejavu/"
+import os
+FD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts") + os.sep   # bundled DejaVu Sans (free licence)
 pdfmetrics.registerFont(TTFont("DV", FD + "DejaVuSans.ttf"))
 pdfmetrics.registerFont(TTFont("DV-B", FD + "DejaVuSans-Bold.ttf"))
 pdfmetrics.registerFont(TTFont("DV-I", FD + "DejaVuSans-Oblique.ttf"))
